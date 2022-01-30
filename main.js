@@ -35,6 +35,7 @@ JumpOver.onclick = function(){
   //   Block.src = data.message // 画像を表示する
   // })
   Likes()
+
   }
 
 const checkDead = setInterval(function(){
@@ -56,7 +57,8 @@ const checkDead = setInterval(function(){
     Block.style.display="none"
     // ブロックのdisplayプロパティをなしに⇒ブロックがなくなる
     Number = 0
-    alert("you lose")
+    alert("雑魚が")
+    location.reload();
   }
   if (blockfastkLeft < 320 && blockfastkLeft > 300 && charactorTop >= -150){
     // ブロックの左が20以上0未満であり、キャラクターの上が130以上の場合
@@ -69,8 +71,10 @@ const checkDead = setInterval(function(){
     Block.style.display="none"
     // ブロックのdisplayプロパティをなしに⇒ブロックがなくなる
     Number = 0
-    alert("you lose")
+    alert("雑魚が")
+    location.reload();
   }
+
 },10);
 
 
