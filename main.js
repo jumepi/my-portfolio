@@ -57,7 +57,7 @@ const checkDead = setInterval(function(){
     Block.style.display="none"
     // ブロックのdisplayプロパティをなしに⇒ブロックがなくなる
     Number = 0
-    alert("雑魚が")
+    alert("弱いねぇ")
     location.reload();
   }
   if (blockfastkLeft < 320 && blockfastkLeft > 300 && charactorTop >= -150){
@@ -71,7 +71,7 @@ const checkDead = setInterval(function(){
     Block.style.display="none"
     // ブロックのdisplayプロパティをなしに⇒ブロックがなくなる
     Number = 0
-    alert("雑魚が")
+    alert("弱いねぇ")
     location.reload();
   }
 
