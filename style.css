@@ -174,10 +174,10 @@
     background-image: url("./images/junpie.jpg");
     background-color: white;
     background-size: 10rem;
-
 }
 .introcontent ,.daigaku,.adana{
-    font-size: 10rem;
+    font-size: 6rem;
+
 }
 .sukinamono{
     width: 10rem;

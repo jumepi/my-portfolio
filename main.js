@@ -175,7 +175,7 @@ const checkDead = setInterval(function(){
     // ブロックのdisplayプロパティをなしに⇒ブロックがなくなる
     Number = 0
     alert("弱いねぇ")
-    // location.reload();
+    location.reload();
   }
   if (blockfastkLeft < 320 && blockfastkLeft > 300 && charactorTop >= -150){
     // ブロックの左が20以上0未満であり、キャラクターの上が130以上の場合
@@ -189,5 +189,5 @@ const checkDead = setInterval(function(){
     // ブロックのdisplayプロパティをなしに⇒ブロックがなくなる
     Number = 0
     alert("弱いねぇ")
-    // location.reload();
+    location.reload();
   }},10);
